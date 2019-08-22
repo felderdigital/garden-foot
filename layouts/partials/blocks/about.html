@@ -1,0 +1,15 @@
+<section id="about" class="anchor">
+	<div class="about">
+		<div class="container-fluid">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h1>{{ markdownify . }}</h1>{{- end -}}
+					{{- with .Params.a_subtitle -}}<h2>{{ markdownify . }}</h2>{{- end -}}
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					<a class="button button-primary" href="tel:732-250-3929">Call Us</a>
+					<a class="button button-secondary" href="https://www.google.com/maps/" target="_blank">Directions</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

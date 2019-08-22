@@ -1,0 +1,149 @@
+---
+label: Services
+hide_body: true
+display_field: heading
+fields:
+- type: text
+  name: a_title
+  label: Title
+  description: 
+- type: text
+  name: a_1
+  label: Service A
+  description: 
+- type: textarea
+  name: a_2
+  label: Service A Description
+  description: 
+- type: text
+  name: b_1
+  label: Service B
+  description: 
+- type: textarea
+  name: b_2
+  label: Service B Description
+  description: 
+- type: text
+  name: c_1
+  label: Service C
+  description: 
+- type: textarea
+  name: c_2
+  label: Service C Description
+  description: 
+- type: text
+  name: d_1
+  label: Service D
+  description: 
+- type: textarea
+  name: d_2
+  label: Service D Description
+  description: 
+- type: text
+  name: e_1
+  label: Service E
+  description: 
+- type: textarea
+  name: e_2
+  label: Service E Description
+  description: 
+- type: text
+  name: f_1
+  label: Service F
+  description: 
+- type: textarea
+  name: f_2
+  label: Service F Description
+  description: 
+- type: text
+  name: g_1
+  label: Service G
+  description: 
+- type: textarea
+  name: g_2
+  label: Service G Description
+  description: 
+- type: text
+  name: h_1
+  label: Service H
+  description: 
+- type: textarea
+  name: h_2
+  label: Service H Description
+  description: 
+- type: text
+  name: h_li_1
+  label: Service H List 1
+  description: 
+- type: text
+  name: h_li_2
+  label: Service H List 2
+  description: 
+- type: text
+  name: h_li_3
+  label: Service H List 3
+  description: 
+- type: text
+  name: h_li_4
+  label: Service H List 4
+  description: 
+- type: text
+  name: h_li_5
+  label: Service H List 5
+  description: 
+- type: text
+  name: h_li_6
+  label: Service H List 6
+  description: 
+- type: text
+  name: h_li_7
+  label: Service H List 7
+  description: 
+- type: text
+  name: h_li_8
+  label: Service H List 8
+  description: 
+- type: text
+  name: h_li_9
+  label: Service H List 9
+  description: 
+- type: text
+  name: h_li_10
+  label: Service H List 10
+  description: 
+- type: text
+  name: h_li_11
+  label: Service H List 11
+  description: 
+- type: text
+  name: h_li_12
+  label: Service H List 12
+  description: 
+- type: text
+  name: h_li_13
+  label: Service H List 13
+  description: 
+- type: text
+  name: h_li_14
+  label: Service H List 14
+  description: 
+- type: text
+  name: h_li_15
+  label: Service H List 15
+  description: 
+- type: text
+  name: i_1
+  label: Service I
+  description: 
+- type: textarea
+  name: i_2
+  label: Service I Description
+  description: 
+- type: text
+  name: j_1
+  label: Service J
+  description: 
+- type: textarea
+  name: j_2
+  label: Service J Description
+  description: 

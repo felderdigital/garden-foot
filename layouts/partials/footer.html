@@ -1,0 +1,57 @@
+<footer>
+	<div class="container">
+		<div class="grid footer-links">
+			<div class="column"></div>
+			<div class="column">
+				<div class="facebook">
+					<a href="https://www.facebook.com/" target="_blank"><img class="facebook-icon" src="{{ $.Site.BaseURL }}/img/content/facebook.png" /></a>
+				</div>
+				<p><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+			</div>
+			<div class="column">
+				<p>Phone: <a href="tel:732-250-3929">732-250-3929</a></p>
+				<p>Email: <a href="mailto:gsfagroup@gmail.com"> gsfagroup@gmail.com</a></p>
+			</div>
+			<div class="column"></div>
+		</div>
+		<div class="grid">
+			<div class="column">
+				<p class="attribution">
+					{{ with .Site.Copyright }}
+						{{ . | markdownify}}
+					{{ end }}
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="{{ "/js/nav.js" | relURL }}"></script>
+<script src="{{ "/js/form.js" | relURL }}"></script>
+<script src="{{ "/js/owl.carousel.min.js" | relURL }}"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script src="//cdn.callrail.com/companies/170153633/70cc832f4a47e133ef3d/12/swap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+			currentClass: 'current',
+			changeHash: false,
+			scrollSpeed: 1200
+		});
+	});
+	$('.menu-toggle').click(function() {
+	$('ul').toggleClass('opening');
+	$(this).toggleClass('open');
+	});
+	$(".accordion").on("click", ".accordion-header", function() {
+		$(this).toggleClass("active").next().slideToggle();
+	});
+	$('.owl-carousel').owlCarousel({
+    	loop: true,
+    	items: 1,
+    	margin: 10,
+	})
+</script>
+</body>
+</html>

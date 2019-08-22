@@ -1,0 +1,57 @@
+<section id="contact" class="anchor">
+	<div class="contact">
+		<div class="container">
+			<div class="grid">
+				<div class="column"></div>
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					<div style="text-align: center;">
+					<form method="POST" action="https://felderdigital.activehosted.com/proc.php" id="_form_3_" class="_form _form_3 _inline-form  _dark" novalidate>
+						<input type="hidden" name="u" value="3" /><input type="hidden" name="f" value="3" /><input type="hidden" name="s" /><input type="hidden" name="c" value="0" /><input type="hidden" name="m" value="0" /><input type="hidden" name="act" value="sub" /><input type="hidden" name="v" value="2" />
+						<div class="_form-content">
+					    	<div class="_form_element _x76279997 _full_width _clear" >
+					       		{{- with .Params.a_1 -}}<div class="_form-title">{{ markdownify . }}</div>{{- end -}}
+					      	</div>   
+					 		<div class="_form_element _x34913356 _full_width _clear" >
+					      		{{- with .Params.a_2 -}}<div class="_html-code">{{ markdownify . }}</div>{{- end -}}
+					    	</div>
+					    	<div class="_form_element _x00042923 _full_width " >
+						    	<label class="_form-label">
+						    		Full Name
+						      	</label>
+						    	<div class="_field-wrapper">
+						    		<input type="text" name="fullname" placeholder="Type your name" />
+						      	</div>
+					    	</div>
+					    	<div class="_form_element _x85765616 _full_width " >
+					      		<label class="_form-label">
+					        		Email*
+					      		</label>
+					      		<div class="_field-wrapper">
+					        		<input type="text" name="email" placeholder="Type your email" required/>
+					      		</div>
+					    	</div>
+					    	<div class="_form_element _x38578101 _full_width " >
+					      		<label class="_form-label">
+					        		Phone*
+					      		</label>
+					      		<div class="_field-wrapper">
+					        		<input type="text" name="phone" placeholder="Type your phone number" required/>
+					      		</div>
+					    	</div>
+					    	<div class="_button-wrapper _full_width">
+					      		<button id="_form_3_submit" class="_submit" type="submit">
+					        		Submit
+					      		</button>
+					    	</div>
+					    	<div class="_clear-element"></div>
+					  </div>
+					  <div class="_form-thank-you" style="display:none;"></div>
+					</form>
+					</div>
+				</div>
+				<div class="column"></div>
+			</div>
+		</div>
+	</div>
+</section>

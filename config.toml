@@ -1,0 +1,14 @@
+baseurl = ""
+# baseurl = "https://felderdigital.com/projects/garden-foot/"
+# canonifyURLs = true
+
+title = "Garden State Foot & Ankle Group"
+copyright = "&copy; 2019 Garden State Foot &amp; Ankle Group"
+
+[params]
+  author = "Felder Digital"
+  description = "At Garden State Foot &amp; Ankle, we do everything possible to give you an excellent experience during your visits. The team at Garden State Foot &amp; Ankle will ensure that your experience is a positive one and that your foot and ankle needs are taken care of."
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"

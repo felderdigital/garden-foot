@@ -1,0 +1,17 @@
+---
+label: Contact
+hide_body: true
+display_field: heading
+fields:
+- type: text
+  name: a_title
+  label: Title
+  description: 
+- type: text
+  name: a_1
+  label: Form Title
+  description: 
+- type: textarea
+  name: a_2
+  label: Form Text
+  description: 
