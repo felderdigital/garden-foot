@@ -1,0 +1,25 @@
+<section id="gallery" class="anchor">
+	<div class="gallery">
+		<div class="container">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+				</div>
+			</div>
+			<div class="grid">
+				<div class="column"></div>
+				<div class="column">
+					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
+					<div 
+					data-featherlight-gallery data-featherlight-filter="a"
+					>
+						<a class="button button-primary" href="{{ $.Site.BaseURL }}/img/content/gallery-1.jpeg">View Examples</a>
+						<a style="display:none;" href="{{ $.Site.BaseURL }}/img/content/gallery-2.jpeg"></a>
+						<a style="display:none;" href="{{ $.Site.BaseURL }}/img/content/gallery-3.jpeg"></a>
+					</div>
+				</div>
+				<div class="column"></div>
+			</div>
+		</div>
+	</div>
+</section>
