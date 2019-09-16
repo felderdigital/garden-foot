@@ -4,6 +4,7 @@
 			<div class="grid">
 				<div class="column">
 					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_subtitle -}}<h3 class="services-subtitle">{{ markdownify . }}</h3>{{- end -}}
 				</div>
 			</div>
 			<div class="grid">
@@ -39,6 +40,15 @@
 					{{- with .Params.g_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.g_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 				</div>
+				<div class="column"></div>
+				<div class="column"></div>
+			</div>
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.b_subtitle -}}<h3 class="services-subtitle services-subtitle-mobile">{{ markdownify . }}</h3>{{- end -}}
+				</div>
+			</div>
+			<div class="grid">
 				<div class="column">
 					{{- with .Params.h_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.h_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
@@ -47,17 +57,12 @@
 					{{- with .Params.i_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.i_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.a_subtitle -}}<h3>{{ markdownify . }}</h3>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
 				<div class="column">
 					{{- with .Params.j_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.j_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 				</div>
+			</div>
+			<div class="grid">
 				<div class="column">
 					{{- with .Params.k_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.k_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
@@ -66,126 +71,10 @@
 					{{- with .Params.l_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.l_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 				</div>
-			</div>
-			<div class="grid">
 				<div class="column">
 					{{- with .Params.m_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.m_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 				</div>
-				<div class="column">
-					{{- with .Params.n_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.n_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.o_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.o_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.p_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.p_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.q_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.q_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.r_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.r_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.s_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.s_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.t_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.t_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.u_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.u_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.v_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.v_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.w_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.w_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.x_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.x_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.y_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.y_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.z_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.z_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.aa_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.aa_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.ab_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ab_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.ac_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ac_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.ad_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ad_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.ae_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ae_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.af_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.af_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.ag_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ag_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.ah_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ah_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.ai_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ai_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column">
-					{{- with .Params.aj_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.aj_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-			</div>
-			<div class="grid">
-				<div class="column">
-					{{- with .Params.ak_1 -}}<h4>{{ markdownify . }}</h4>{{- end -}}
-					{{- with .Params.ak_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
-				</div>
-				<div class="column"></div>
-				<div class="column"></div>
 			</div>
 		</div>
 	</div>
