@@ -697,7 +697,7 @@ footer a:visited {
  @media all and (min-width:320px) and (max-width:667px) { #_form_4_._inline-form._inline-style ._inline-style._button-wrapper { margin-top:20px !important; margin-left:0 !important; }
  }
 #_form_4_ ._html-code {margin-bottom: 2em;}
-#_form_4_ ._submit {
+#_form_4_submit {
 	background: #a31c35;
 	border: 0.1rem solid #a31c35;
 	border-radius: 0.4rem;
@@ -716,8 +716,8 @@ footer a:visited {
 	text-transform: uppercase;
 	white-space: nowrap;
 }
-#_form_4_ ._submit:hover,
-#_form_4_ ._submit:focus {
+#_form_4_submit:hover,
+#_form_4_submit:focus {
 	background: #b9203c;
 	color: #fff;
 	outline: 0;
