@@ -7,7 +7,7 @@ a_subtitle = "Dr. Manooj Prasad DPM"
 a_title = "Garden State Foot &amp; Ankle Group"
 template = "about"
 [[blocks]]
-a_1 = "Dr. Prasad is a foot and ankle surgeon who is passionate about preventing and treating foot problems to eliminate the need for surgery whenever possible. Specialized in diabetic foot care, Ankle and Heel Pain, Bunions, Hammertoes, Foot and ankle fractures, Plantar fasciitis, Plantar warts. Garden State Foot and Ankle Group invites you to visit us for any foot health concerns."
+a_1 = "Garden State Foot and Ankle Group is dedicated to serving the growing population of patients suffering from diabetic wounds, lower extremity ulcers, post-surgery wounds, traumatic wounds, radiation related and other difficult, non-healing wounds.\n\nWe are experts in the healing process and understand the factors which affect wound healing. Our philosophy is to nurture the normal wound healing process and bolster the natural tendency of the body to mend using a combination of attentive medical care and the latest proven techniques available for the treatment of problem wounds.\n\nDr. Prasad is a foot and ankle surgeon who is passionate about preventing and treating foot problems to eliminate the need for surgery whenever possible. "
 a_subtitle = ""
 a_title = "Our Approach to Healing"
 template = "meet"
