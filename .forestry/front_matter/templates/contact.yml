@@ -5,13 +5,17 @@ display_field: heading
 fields:
 - type: text
   name: a_title
-  label: Title
+  label: Title 1
   description: 
 - type: text
-  name: a_1
-  label: Form Title
+  name: b_title
+  label: Title 2
   description: 
-- type: textarea
-  name: a_2
-  label: Form Text
+- type: text
+  name: b_1
+  label: Address 1
+  description: 
+- type: text
+  name: b_2
+  label: Address 2
   description: 

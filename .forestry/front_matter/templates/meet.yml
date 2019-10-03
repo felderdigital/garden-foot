@@ -15,15 +15,3 @@ fields:
   name: a_1
   label: Paragraph 1
   description: 
-- type: textarea
-  name: a_2
-  label: Paragraph 2
-  description: 
-- type: textarea
-  name: a_3
-  label: Paragraph 3
-  description: 
-- type: textarea
-  name: a_4
-  label: Paragraph 4
-  description: 

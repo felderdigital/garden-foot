@@ -13,6 +13,7 @@ fields:
   - meet
   - services
   - testimonials
+  - gallery
   - contact
 pages:
 - content/_index.md
