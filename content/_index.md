@@ -8,8 +8,8 @@ a_title = "Garden State Foot &amp; Ankle Group"
 template = "about"
 [[blocks]]
 a_1 = "Dr. Prasad is a foot and ankle surgeon who is passionate about preventing and treating foot problems to eliminate the need for surgery whenever possible. Specialized in diabetic foot care, Ankle and Heel Pain, Bunions, Hammertoes, Foot and ankle fractures, Plantar fasciitis, Plantar warts. Garden State Foot and Ankle Group invites you to visit us for any foot health concerns."
-a_subtitle = "Dr. Manooj Prasad, DPM"
-a_title = "Meet the Doctor"
+a_subtitle = ""
+a_title = "Our Approach to Healing"
 template = "meet"
 [[blocks]]
 a_1 = "Bunion and hammer toe correction"
