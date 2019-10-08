@@ -2,7 +2,7 @@
 title = "Home"
 type = "page"
 [[blocks]]
-a_1 = "Podiatrist and Wound Care Specialist located in Toms River, New Jersey.\n664 Commons Way, Building I (732) 557-9900"
+a_1 = "Podiatrist and Wound Care Specialist located 664 Commons Way, Building I\nToms River, NJ 08755."
 a_subtitle = "Dr. Manooj Prasad DPM"
 a_title = "Garden State Foot &amp; Ankle Group"
 template = "about"
