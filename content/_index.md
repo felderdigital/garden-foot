@@ -51,10 +51,6 @@ template = "testimonials"
 a_title = "Reviews"
 template = "reviews"
 [[blocks]]
-a_1 = "Content Warning: Some of the images in this gallery may contain graphic content. If you would like to view these images, click on the button below."
-a_title = "Gallery"
-template = "gallery"
-[[blocks]]
 a_1 = "Have a question or concern? Send your contact info and we'll get back to you shortly."
 a_2 = ""
 a_title = "Contact Us"
@@ -62,5 +58,9 @@ b_1 = "664 Commons Way, Building I"
 b_2 = "Toms River, NJ 08755"
 b_title = "Visit Us"
 template = "contact"
+[[blocks]]
+a_1 = "Content Warning: Some of the images in this gallery may contain graphic content. If you would like to view these images, click on the button below."
+a_title = "Gallery"
+template = "gallery"
 
 +++
